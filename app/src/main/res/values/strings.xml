@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Andela Home Study</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="core_tab">Core</string>
+    <string name="javascript_tab">JavaScript</string>
+    <string name="python_tab">Python</string>
+
+    <string name="title_number">1</string>
+
+    <string-array name="core_titles">
+        <item>Integration</item>
+        <item>Git and Version Control</item>
+        <item>Winning with people</item>
+        <item>Databases</item>
+    </string-array>
+
+    <string-array name="javascript_and_python_titles">
+        <item>Introduction to Programming</item>
+        <item>Object Oriented Programming</item>
+        <item>Data Structures and Algorithms</item>
+        <item>Test Driven Development</item>
+        <item>Web Programming</item>
+        <item>Introduction to ES6</item>
+    </string-array>
+
+
+    <string-array name="integration">
+        <item>Overview</item>
+        <item>Excellence</item>
+        <item>Passion</item>
+        <item>Integrity</item>
+        <item>Collaboration</item>
+        <item>Growth MindSet</item>
+        <item>Relationship Building</item>
+        <item>Adaptability</item>
+    </string-array>
+
+    <string-array name="git_and_version_control">
+        <item>Overview</item>
+        <item>Command Line Basics</item>
+        <item>Version control with Git</item>
+    </string-array>
+
+    <string-array name="winning_with_people">
+        <item>Overview</item>
+        <item>Speaking to be understood</item>
+        <item>Growth MindSet</item>
+        <item>Learning how to learn</item>
+        <item>Seeks Feedback</item>
+        <item>Big picture thinking</item>
+        <item>Writing Professionally</item>
+        <item>Project Management Tools</item>
+        <item>Problem Solving</item>
+        <item>Business Etiquette</item>
+        <item>Asking questions and ASK feedback</item>
+        <item>Ethics</item>
+    </string-array>
+
+    <string-array name="databases">
+        <item>Overview</item>
+        <item>Introduction to databases</item>
+    </string-array>
+
+    <!-- Python Strings -->
+    <string-array name="introduction_to_programming_python">
+        <item>Overview</item>
+        <item>Computer Science Basics</item>
+        <item>Programming Basics</item>
+        <item>Introduction to Python</item>
+    </string-array>
+
+
+    <string-array name="object_oriented_programming_python">
+        <item>Overview</item>
+        <item>What is Object Oriented Programming</item>
+        <item>Object Oriented Programming in Python</item>
+    </string-array>
+
+    <string-array name="data_structures_and_algorithms">
+        <item>Overview</item>
+        <item>Introduction to Data Structures</item>
+        <item>Python Data Structures</item>
+        <item>Introduction to Algorithms</item>
+    </string-array>
+
+    <string-array name="test_driven_development">
+        <item>Overview</item>
+        <item>Introduction to TDD</item>
+        <item>TDD in Python</item>
+        <item>Debugging in Python</item>
+    </string-array>
+
+    <string-array name="web_programming">
+        <item>Overview</item>
+        <item>Introduction to web programming</item>
+        <item>Http and web Services</item>
+        <item>HTML and CSS practical</item>
+        <item>Basics of MVC architecture</item>
+        <item>Getting started with flask</item>
+        <item>Introduction to REACT</item>
+    </string-array>
+
+
+    <!-- JavaScript Strings -->
+    <string-array name="introduction_to_programming_javascript">
+        <item>Overview</item>
+        <item>Computer Science Basics</item>
+        <item>Programming Basics</item>
+        <item>Introduction to JavaScript</item>
+    </string-array>
+
+    <string-array name="object_oriented_programming_javascript">
+        <item>Overview</item>
+        <item>What is Object Oriented Programming</item>
+        <item>Object Oriented Programming in JavaScript</item>
+    </string-array>
+
+    <string-array name="data_structures_and_algorithms_javascript">
+        <item>Overview</item>
+        <item>Introduction to Data Structures</item>
+        <item>JavaScript Data Structures</item>
+        <item>Introduction to Algorithms</item>
+    </string-array>
+
+    <string-array name="test_driven_development_javascript">
+        <item>Overview</item>
+        <item>Introduction to TDD</item>
+        <item>TDD in JavaScript</item>
+        <item>Debugging in JavaScript</item>
+    </string-array>
+
+    <string-array name="web_programming_javascript">
+        <item>Overview</item>
+        <item>Introduction to web programming</item>
+        <item>Http and web Services</item>
+        <item>HTML and CSS practical</item>
+        <item>Introduction to REACT</item>
+        <item>Introduction to NodeJS</item>
+    </string-array>
+
+    <string-array name="introduction_to_es6">
+        <item>Overview</item>
+        <item>Introduction to ES6</item>
+        <item>A First Look at ES6</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="core_tab_title">Core</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
+    <string name="nav_Integration">Integration</string>
+    <string name="nav_git_and_version_control">Git and version control</string>
+    <string name="nav_winning_with_people">Winning with people</string>
+    <string name="nav_databases">Databases</string>
+    <string name="nav_introduction_to_programming">Introduction to Programming</string>
+    <string name="nav_object_oriented_programming">Object Oriented Programming</string>
+    <string name="nav_data_structures_algorithms">Data Structures and Algorithms</string>
+    <string name="nav_tdd_javascript">TDD JavaScript</string>
+    <string name="nav_web_programming_javascript">Web Programming JavaScript</string>
+    <string name="nav_introduction_to_es6">Introduction to ES6</string>
+    <string name="nav_tdd_python">TDD Python</string>
+    <string name="nav_web_programming_python">Web Programming Python</string>
+    <string name="exit">Exit</string>
+    <string name="slash">/</string>
+
+</resources>

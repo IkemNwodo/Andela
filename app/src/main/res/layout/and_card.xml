@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/title_number"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/card_imageview_drawable"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/label_numbering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/title_number"
+            android:layout_alignLeft="@id/title_number"
+            android:layout_alignRight="@id/title_number"
+            android:layout_alignTop="@id/title_number"
+            android:layout_margin="25dp"
+            android:layout_alignStart="@id/title_number"
+            android:layout_alignEnd="@id/title_number"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/title_andela"
+            style="@style/TextAppearance.Color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/title_number"
+            android:layout_toRightOf="@id/title_number"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:paddingTop="20dp"
+            android:lines="2"/>
+    </RelativeLayout>
+</android.support.design.card.MaterialCardView>

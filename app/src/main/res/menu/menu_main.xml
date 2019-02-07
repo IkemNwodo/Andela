@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.ikem.nwodo.andela.MainActivity">
+
+    <item
+        android:id="@+id/action_message"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        android:title="Empty"
+        android:icon="@drawable/ic_message_black_24dp"
+        />
+    <item
+        android:id="@+id/action_slack"
+        android:orderInCategory="20"
+        app:showAsAction="always"
+        android:title="Empty"
+        android:icon="@drawable/ic_slack_drawable"
+        />
+
+</menu>
